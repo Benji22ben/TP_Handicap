@@ -1,3 +1,5 @@
+body{
+}
 #cursor {
   position: absolute;
   top: 0;
@@ -9,6 +11,7 @@
 }
 nav p{
   display: inline;
+  margin: 20px;
 }
 nav{
   text-align: center;
