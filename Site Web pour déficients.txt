@@ -1,0 +1,4 @@
+- Site vitrine (HTML;CSS,JS) démonstratif
+- Cahier de spécification explicatif
+
+Normes W3C, WAI
