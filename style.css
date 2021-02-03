@@ -7,3 +7,9 @@
   background-color: #333;
   border-radius: 50px;
 }
+nav p{
+  display: inline;
+}
+nav{
+  text-align: center;
+}
