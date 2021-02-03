@@ -1,5 +1,6 @@
 html {
   font-size: 62.5%;
+  font-family: poppins;
 }
 
 *,
@@ -15,11 +16,13 @@ nav p{
   font-size: 2em;
 }
 nav{
+  margin-top: 20px;
   text-align: center;
 }
 h1{
   text-align: center;
   font-size: 4em;
+  position: absolute;
 }
 .presentation{
   text-align: center;
@@ -27,4 +30,7 @@ h1{
 }
 .books{
   width: 50%;
+}
+.Middle-Section{
+  position: relative;
 }
