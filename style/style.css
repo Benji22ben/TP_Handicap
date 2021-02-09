@@ -1,0 +1,174 @@
+/* Global */
+html {
+  font-size: 62.5%;
+  font-family: poppins;
+  cursor: none;
+}
+
+a {
+  cursor: none; 
+}
+
+section{
+  margin: 5rem;
+}
+/* Global */
+
+/* Textes */
+h1 {
+  text-align: center;
+  font-size: 4em;
+  font-weight: bolder;
+  color: red;
+  margin-bottom: 5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color:rgb(59, 60, 67);
+  margin-top: 0;
+
+}
+h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color:rgb(89, 97, 153);
+  margin-top: 0;
+
+}
+p {
+  font-size: 2rem;
+  line-height: 3.5rem;
+}
+/* Textes */
+
+
+/* Menu */
+nav {
+  padding: 2rem 0;
+  margin-bottom:2rem; 
+  text-align: center;
+  background-color: rgb(183, 202, 214);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: black;
+}
+
+
+nav ul li{
+  padding: 1rem 4rem;
+  font-size: 3em;
+  font-weight: bolder;
+}
+
+nav ul li:hover {
+  background-color: rgb(255, 216, 226);
+  border-radius: 30px;
+}
+
+nav ul li.active {
+  border-bottom: 4px solid red;
+}
+/* Menu */
+
+
+
+
+/* Section Biographie */
+section.biographie {
+  display: flex;
+}
+
+section.biographie img {
+  width: 40%;
+  height: 100%;
+}
+
+section.biographie > div {
+  margin-left: 5rem;
+}
+/* Section Biographie */
+
+
+
+/* Liste des illustrations */
+section.illustrations-grid ul {
+  margin: 5rem 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 8rem 4rem;
+}
+
+section.illustrations-grid h3 {
+  text-align: center;
+  height: 5rem;
+}
+
+section.illustrations-grid img {
+  width: 100%;
+  aspect-ratio: 0.7;
+}
+/* Liste des illustrations */
+
+
+/* Liste des livres */
+section.book-grid ul {
+  margin: 5rem 0;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 8rem 4rem;
+}
+
+section.book-grid ul li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid black;;
+}
+
+section.book-grid h3 {
+  text-align: center;
+}
+
+section.book-grid ul li > div {
+  width: 100%;
+}
+
+section.book-grid div img {
+  width: 100%;
+}
+
+section.book-grid p {
+  margin-left: 5rem;
+  width: 250%;
+}
+/* Liste des livres */
+
+
+
+.presentation{
+  text-align: center;
+  font-size: 2em;
+}
+.books{
+  width: 50%;
+}
+.Middle-Section{
+  position: relative;
+}
+
+
+/* Footer */
+footer nav {
+  margin-bottom: 0;
+}
+/* Footer */

@@ -1,0 +1,61 @@
+@media screen and (max-width: 1024px) {
+
+  html {
+    font-size: 58%;
+  }
+
+  section.illustrations-grid ul {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 8rem 4rem;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+
+  html {
+    font-size: 50%;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+
+  html {
+    font-size: 45%;
+  }
+
+  /* menu */
+  nav ul li {
+    padding: 1rem 3rem;
+    font-size: 2.5em;
+  }
+  /* menu */
+
+  /* biographie */
+  section.biographie {
+    flex-direction: column;
+  }
+
+  section.biographie img {
+    width: 100%;
+  }
+
+  section.biographie>div {
+    margin-left: 0;
+    margin-top: 5rem;
+  }
+  /* biographie */
+
+  /* Liste des livres */
+  section.book-grid ul li {
+    flex-direction: column;
+  }
+  section.book-grid p {
+    margin-left: 0;
+    width: 100%;
+    margin: 5rem 0;
+  }
+  /* Liste des livres */
+
+}

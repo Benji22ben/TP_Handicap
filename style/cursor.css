@@ -1,24 +1,24 @@
 .cursor {
-  position: absolute;
+  position: absolute ;
   width: 40px;
   height: 40px;
   animation: cursorAnim .5s infinite alternate;
   border: 2px solid #333;
   border-radius: 50%;
   pointer-events: none;
+  z-index: 10;
 }
 
 .cursor::after {
   content: "";
   width: 40px;
   height: 40px;
-  width: 20px;
   position: absolute;
   border: 7px solid rgb(95, 99, 114);
   border-radius: 50%;
   opacity: .3;
-  top: -2px;
-  left: -2px;
+  top: -7px;
+  left: -7px;
   animation: cursorAnim2 .5s infinite alternate;
 }
 
