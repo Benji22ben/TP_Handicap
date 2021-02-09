@@ -154,19 +154,6 @@ section.book-grid p {
 /* Liste des livres */
 
 
-
-.presentation{
-  text-align: center;
-  font-size: 2em;
-}
-.books{
-  width: 50%;
-}
-.Middle-Section{
-  position: relative;
-}
-
-
 /* Footer */
 footer nav {
   margin-bottom: 0;

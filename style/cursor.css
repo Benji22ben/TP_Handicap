@@ -16,7 +16,7 @@
   position: absolute;
   border: 7px solid rgb(95, 99, 114);
   border-radius: 50%;
-  opacity: .3;
+  opacity: .7;
   top: -7px;
   left: -7px;
   animation: cursorAnim2 .5s infinite alternate;
