@@ -21,6 +21,7 @@ h1 {
   font-weight: bolder;
   color: red;
   margin-bottom: 5rem;
+  margin-top: 18rem;
 }
 
 h2 {
@@ -46,6 +47,10 @@ p {
 
 /* Menu */
 nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
   padding: 2rem 0;
   margin-bottom:2rem; 
   text-align: center;
